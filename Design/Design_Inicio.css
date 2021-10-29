@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*HEADER*/
+
+header{
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    width: 100%;
+}
+
+.container_menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5px;
+}
+
+/*BOTONES MENU HEADER*/
+
+.botones{
+    font-family: arial black;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.botones:hover {
+    color: #ff0844 ;
+    transition: all 0.5s;
+}
+
+div a{
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.alineado{
+    display: flex;
+    justify-content: center;
+}
+
+/*PERSONALIZACION DEL BODY*/
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1554579306-94e345617dbc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80) ;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    background-color: black;
+    color: white;
+    border: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 3px 3px 1px red;
+    width: 100%;
+    padding: 5px;
+}
+
+/*HISTORIA RIVER*/
+
+.container-aside{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+.text-historia{
+    font-family: 'Sura', serif;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    width: 25%;
+}
+
+.container-aside img {
+    margin-left: 70px;
+}
+
+/*CUADROS JUGADORES*/
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Sura', serif;
+}
+
+/* INICIO BORDES BLANCOS JUGADORES*/
+
+.content-1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.content-1 h1{
+    text-align: center;
+    color: black;
+    border: 5px solid;
+}
+
+.content-icon-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-icon{
+    height: 28rem;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    transition: all 300ms;
+    margin-top: 10px;
+    color: white;
+    background: black;
+}
+
+.content-icon:hover{
+    box-shadow: 0px 10px 40px -5px white;
+}
+
+.content-icon img{
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px -10px black;
+    background-color: whitesmoke;
+}
+
+.content-icon h4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content-icon p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*FIN BORDES BLANCOS JUGADORES*/
+
+/*DESIGN - SOCIOS.HTML*/
+
+#titulo_form{
+    font-family: arial black;
+    border: black;
+    font-size: 25px;
+    margin: 20px;
+}
+
+nav{
+    background-color: whitesmoke;
+    margin: 20px;
+}
+
+label{
+        margin-left: 5px;
+}
+
+input{
+    width: 20px;
+}
+
+form{
+    margin: 15px;
+}
+
+.mb-3{
+    margin-top: 25px;
+}
+
+.form-label{
+    margin-top: 25px;
+}
+
+.col-12{
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 0%;
+}
+
+button{
+    margin-left: 0%;
+}
+
+/*DESIGN - PROX PARTIDOS.HTML*/
+
+h3{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    color: arial solid black;
+}
+
+.fixture{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+table, th, td {
+    border: 2px solid red ;
+    border-collapse: collapse;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    margin: 60px;
+}
+
+th, td {
+    color: whitesmoke;
+    padding: 10px;
+}
+
+th{
+    text-align: left;
+}
+
+.espacios{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.font{
+    font-family: 'Sura', serif;
+}
+
+
+/*PIE DE PAGINA*/
+
+footer{ 
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: blanchedalmond;
+    width:100%;
+    position:static;
+    bottom:0px;
+    
+}
+
+footer p{
+    margin-bottom: 0%;
+}
+
+/*CARACTERISTICAS RESPONSIVE*/
+/*FALTO RESPONSIVE*/

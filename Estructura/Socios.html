@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../Imagenes TPO/river.ico" type="icon/png" sizes="16x16">
+  <link rel="stylesheet" href="../Design/Design_Inicio.css">
+  <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sura&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+    <div>
+        <!--Menu desplegable-->
+        <div class="container_menu"> 
+                <a href="../Estructura/Socios.html" class="botones">Hacete socio</a>
+                <a href="../Estructura/ProxPartidos.html" class="botones">Proximos encuentros</a>
+        </div>
+        <div class="alineado"> <!--ANIMACION PARA LA IMAGEN DE INICIO--> 
+          <!--PULSAR IMAGEN PARA VOLVER AL INICIO-->
+            <a href="../Estructura/index.html"><img src="../Imagenes TPO/logo.menu.png" class="animate__animated animate__zoomIn"></a>
+        </div>
+    </div>
+    </header>
+    <!--INICIO INTERIOR PAGINA WEB-->
+    <nav>
+        <!--INICIO FORMULARIO-->
+      <fieldset>
+        <form class="needs-validation" novalidate>
+        <h1 id="titulo_form">Registro para Socios</h1>
+            <!--NOMBRE Y APELLIDO-->    
+            <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" id="validationCustom01" aria-label="nombres" value="Enzo" required>
+                  <div class="valid-feedback">
+                    Excelente!
+                  </div>
+                </div>
+                <div class="col">
+                  <input type="text"  class="form-control" id="validationCustom02" aria-label="apellido" value="Francescoli" required>
+                  <div class="valid-feedback">
+                    Perfecto!
+                  </div>
+                </div>
+            </div>
+            <!--CORREO ELECTRONICO-->
+            <div class="mb-3">
+              <label for="validationCustom03" class="form-label">Ingrese correo electrónico</label>
+              <input type="email" class="form-control" id="validationCustom03" placeholder="Riverplate@example.com" required>
+              <div class="invalid-feedback">
+                Por favor, ingrese un correo electrónico.
+              </div>
+              <div class="valid-feedback">
+                Excelente!
+              </div>
+            </div>
+            <!--ADJUNTO DE ARCHIVOS-->
+            <div class="mb-3">
+                <label for="validationCustom04" class="form-label">Adjunte DNI (Frente)</label>
+                <input class="form-control" type="file" id="validationCustom04" required>
+            </div>
+            <div class="mb-3">
+                <label for="validationCustom05" class="form-label">Adjunte DNI (Dorso)</label>
+                <input class="form-control" type="file" id="validationCustom05" required>
+            </div>
+            <!--SELECCION PROVINCIA DE RESIDENCIA-->
+              <label for="validationCustom06" class="form-label">Ingrese Provincia de residencia</label>
+              <input type="text" class="form-control" id="validationCustom06" placeholder="Ej. CABA" required>
+              <div class="invalid-feedback">
+              Por favor, ingrese una provincia.
+              </div>
+              <div class="valid-feedback">
+                Excelente!
+              </div>
+            <!--CHECK GENERO-->
+            <label for="formFile" class="form-label">Seleccione:</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Masculino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Femenino
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class="form-check-label" for="flexRadioDefault3">
+                  Otro
+                </label>
+              <!--TERMINOS Y CONDICIONES-->
+             <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                    Estoy de acuerdo con los terminos y condiciones del club atletico River Plate. 
+                    </label>
+                <div class="invalid-feedback">
+                Debe aceptar los terminos y condiciones.
+                </div>
+              </div>
+            </div>
+              <!--BOTON DE ENVIO DE INFORMACION-->
+                <div class="col-12">
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                  </div>
+              </div>
+        </form>
+      </fieldset>
+        <!--FIN FORMULARIO-->    
+    </nav>
+    <!--FIN INTERIOR PAGINA WEB-->
+    <footer>        
+    <a href="https://twitter.com/RiverPlate?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class='bx bxl-twitter'></i></a>
+    <a href="https://es-la.facebook.com/riverplateoficial/" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+    <a href="https://www.instagram.com/riverplate/?hl=es-la" target="_blank"><i class='bx bxl-instagram' ></i></a>
+    <p>Todos los derechos reservados Media River Plate @2021</p>
+    <p>Pagina web desarrollada por Ezequiel Rodriguez</p>
+    </footer>
+  <script src="../Javascript/Validacion-socios.js"></script>  
+</body>
+</html>
