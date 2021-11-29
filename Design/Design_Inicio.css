@@ -258,4 +258,111 @@ footer p{
 }
 
 /*CARACTERISTICAS RESPONSIVE*/
-/*FALTO RESPONSIVE*/
+
+
+/*///// RESPONSIVE INDEX /////*/
+
+@media screen and (max-width: 1300px) {
+    .container-aside img{
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-aside img{
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 800px) { 
+    
+    .container-aside{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container-aside img{
+        margin: auto;
+        padding: auto;
+        padding-top: 10rem;
+        width: 35rem;
+        height: 30rem;
+    }
+
+    .text-historia{
+        width: 20rem;
+    }
+
+    .content-1{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .alineado{
+        display: flex;
+        justify-content:flex-start;
+        width: 10px;
+    }
+
+    .container-aside img{
+        margin: auto;
+        padding: auto;
+        padding-top: 10rem;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+/*/// RESPONSIVE HEADER ///*/
+@media screen and (min-width: 100px) {
+    .alineado img{
+        display: flex;
+        justify-content: center;
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .alineado{
+        display: flex;
+        justify-content: center;
+        width: 30rem;
+    }
+}
+
+/*///// RESPONSIVE PROXIMOS PARTIDOS /////*/
+
+
+@media screen and (max-width: 850px) {
+    table{
+        width: 40rem;
+    } 
+    iframe{
+        width: 30rem;
+        height: fit-content;
+    }
+}
+
+
+@media screen and (max-width: 690px) {
+    table{
+        width: 30rem;
+    } 
+    iframe{
+        width: 20rem;
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    table{
+        width: 20rem;
+    } 
+    iframe{
+        width: 10rem;
+        height: fit-content;
+    }
+}
