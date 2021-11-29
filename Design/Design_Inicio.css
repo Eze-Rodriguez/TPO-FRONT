@@ -259,9 +259,26 @@ footer p{
 
 /*CARACTERISTICAS RESPONSIVE*/
 
+/*/// RESPONSIVE HEADER ///*/
+@media screen and (max-width: 480px) {
+    .alineado img{
+        display: flex;
+        justify-content: flex-end;
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .alineado img{
+        display: flex;
+        justify-content: flex-end;
+        width: 10rem;
+    }
+}
+/*/// FIN RESPONSIVE HEADER ///*/
+
 
 /*///// RESPONSIVE INDEX /////*/
-
 @media screen and (max-width: 1300px) {
     .container-aside img{
         width: 40rem;
@@ -299,13 +316,8 @@ footer p{
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
     
-    .alineado{
-        display: flex;
-        justify-content:flex-start;
-        width: 10px;
-    }
 
     .container-aside img{
         margin: auto;
@@ -316,25 +328,19 @@ footer p{
     }
 }
 
-/*/// RESPONSIVE HEADER ///*/
-@media screen and (min-width: 100px) {
-    .alineado img{
-        display: flex;
-        justify-content: center;
-        width: 30rem;
-    }
-}
+@media screen and (max-width: 480px) { 
 
-@media screen and (max-width: 535px) {
-    .alineado{
-        display: flex;
-        justify-content: center;
-        width: 30rem;
+    .container-aside img{
+        margin: auto;
+        padding: auto;
+        padding-top: 10rem;
+        width: 20rem;
+        height: 20rem;
     }
 }
+/*/// FIN RESPONSIVE INDEX ///*/
 
 /*///// RESPONSIVE PROXIMOS PARTIDOS /////*/
-
 
 @media screen and (max-width: 850px) {
     table{
@@ -366,3 +372,5 @@ footer p{
         height: fit-content;
     }
 }
+
+/*/// FIN RESPONSIVE PROXIMOS PARTIDOS ///*/
